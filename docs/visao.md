@@ -17,4 +17,5 @@ o usuário podera cadastrar seu cartão de debito ou credito para agilidade no p
 
 front end: HTML, CSS e javascript
 back end: Pyhton
+hospedagem: Heroku
 
