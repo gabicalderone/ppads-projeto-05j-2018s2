@@ -3,6 +3,6 @@
 
 ### Integrantes do grupo:
 
-*Camila Souza da Silva
-*Gabriel Lemos do Nascimento
-*Gabriela Duarte Calderone
+>>Camila Souza da Silva
+>>Gabriel Lemos do Nascimento
+>>Gabriela Duarte Calderone
