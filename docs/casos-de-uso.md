@@ -18,8 +18,8 @@
 
 #### Fluxo Alternativo:
 ##### __Ações do Ator__ **Ações do Sistema**
-1. __Digita o nome produto
-2. __Efetua a pesquisa do produto
+1. __Digita o nome produto__
+2. __Efetua a pesquisa do produto__
 #### Ações do Sistema
 3. **O sistema busca na base de dados pelas palavras-chave relacionadas ao tipo de produto**
 4. **O sistema retorna uma mensagem informando que não há produtos relacionados à pesquisa.**
