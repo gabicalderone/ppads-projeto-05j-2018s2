@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.mackenzie.easymarket">
+    //Permissões
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -25,9 +28,13 @@
             android:name=".Register"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Principal"
-            android:label="@string/title_activity_principal"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NewList" />
+        <activity android:name=".MyLists" />
+        <activity android:name=".Lista" />
+        <activity android:name=".Principal"></activity>
     </application>
 
 </manifest>

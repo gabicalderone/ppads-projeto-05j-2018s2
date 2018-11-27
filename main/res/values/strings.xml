@@ -16,4 +16,9 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_principal">Principal</string>
+    <string name="produtos">Produtos</string>
+    <string name="name">Name</string>
+    <string name="salvar">Salvar</string>
+    <string name="digite_o_nome_da_lista">Digite o nome da Lista</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>

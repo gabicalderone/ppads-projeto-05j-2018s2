@@ -1,23 +1,18 @@
 package br.mackenzie.easymarket;
 
 import android.content.Intent;
-import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import br.mackenzie.easymarket.database.EasyMarketOpenHelper;
-
 public class Login extends AppCompatActivity {
 
     // variaveis de controle do BD
     private SQLiteDatabase conection;
-    private EasyMarketOpenHelper OpenHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +20,7 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         // Teste conexao
-        createConection();
+        //createConection();
 
         // Definindo os botões
         Button btLogin = findViewById(R.id.bLogin);
@@ -59,7 +54,7 @@ public class Login extends AppCompatActivity {
         //Teste da verificação do Login (SEM BD ainda)
         if(user.equals("Testador")&&password.equals("testando")){
             alert("Login efetuado com sucesso");
-            Intent principal = new Intent(Login.this, Principal.class);
+            Intent principal = new Intent(Login.this, MainActivity.class);
             startActivity(principal);
             finish();
         }
@@ -70,7 +65,7 @@ public class Login extends AppCompatActivity {
     }
 
     // Conexão com o Banco de Dados (TESTE SQLite)
-    private void createConection(){
+    /*private void createConection(){
         try{
             OpenHelper = new EasyMarketOpenHelper(this);
             conection = OpenHelper.getWritableDatabase();
@@ -79,7 +74,7 @@ public class Login extends AppCompatActivity {
         }catch(SQLException ex){
             alert("conexão com BD falhou!");
         }
-    }
+    }*/
 
     // Metodo para a mensagem na tela
     private void alert(String s){

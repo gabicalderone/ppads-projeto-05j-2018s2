@@ -34,7 +34,7 @@ public class Register extends AppCompatActivity {
                 String conf_password = eConfPass.getText().toString();
 
                 // Redirecionar para a Tela Principal
-                Intent principal = new Intent(Register.this, Principal.class);
+                Intent principal = new Intent(Register.this, MainActivity.class);
                 startActivity(principal);
             }
         });
