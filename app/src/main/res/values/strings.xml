@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Easy Market</string>
+    <string name="tUser">Nome de Usuario:</string>
+    <string name="tPass">Senha:</string>
+    <string name="tLogin">Logar</string>
+    <string name="tRegister">Cadastrar</string>
+    <string name="tName">Nome Completo:</string>
+    <string name="tEmail">Endereço de Email:</string>
+    <string name="tPhone">Telefone: *ddd + numero</string>
+    <string name="tConfPass">Confirmar Senha:</string>
+    <string name="title_activity_initial">Initial</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="produtos">Produtos</string>
+    <string name="name">Name</string>
+    <string name="salvar">Salvar</string>
+    <string name="digite_o_nome_da_lista">Digite o nome da Lista</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="esqCEP">Esqueci o CEP</string>
+    <string name="cadastro_de_usu_rio">Cadastro de Usuário</string>
+    <string name="informa_es_pessoais">Informações Pessoais</string>
+    <string name="endere_o">Endereço</string>
+    <string name="cep">CEP</string>
+    <string name="rua">Rua</string>
+
+    <string-array name="states">
+        <item>"*Estado"</item>
+        <item>"Acre (AC)"</item>
+        <item>"Alagoas (AL)"</item>
+        <item>"Amapá (AP)"</item>
+        <item>"Amazonas (AM)"</item>
+        <item>"Bahia (BA)"</item>
+        <item>"Ceará (CE)"</item>
+        <item>"Distrito Federal (DF)"</item>
+        <item>"Espírito Santo (ES)"</item>
+        <item>"Goiás (GO)"</item>
+        <item>"Maranhão (MA)"</item>
+        <item>"Mato Grosso (MT)"</item>
+        <item>"Mato Grosso do Sul (MS)"</item>
+        <item>"Minas Gerais (MG)"</item>
+        <item>"Pará (PA)"</item>
+        <item>"Paraíba (PB)"</item>
+        <item>"Paraná (PR)"</item>
+        <item>"Pernambuco (PE)"</item>
+        <item>"Piauí (PI)"</item>
+        <item>"Rio de Janeiro (RJ)"</item>
+        <item>"Rio Grande do Norte (RN)"</item>
+        <item>"Rio Grande do Sul (RS)"</item>
+        <item>"Rondônia (RO)"</item>
+        <item>"Roraima (RR)"</item>
+        <item>"Santa Catarina (SC)"</item>
+        <item>"São Paulo (SP)"</item>
+        <item>"Sergipe (SE)"</item>
+        <item>"Tocantins (TO)"</item>
+    </string-array>
+</resources>
